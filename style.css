@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.page{
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 221, 152);
+}
+
+.container{
+    width: 70%;
+    margin: 100px auto;
+}
+
+.menu{
+    position: relative;
+    width: 100%;
+    min-height:300px;
+    background-color: rgb(253, 235, 199);
+    box-shadow: 2px 2px 3px 3px rgb(63, 63, 63);
+}
+
+.menu-content{
+    padding: 30px 0;
+}
+
+.but-panel{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.but{
+    height: 60px;
+    display: block;
+    margin: 0 auto;    
+    font-size: 2rem;
+    padding: 10px;
+    background-color:rgb(215, 253, 199) ;
+    cursor: pointer;
+}
+
+.but:hover{
+    background-color:rgb(183, 216, 168) ;
+}
+
+.task{
+    font-size: 1.2rem;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.progress{
+    position: absolute;
+    bottom: -50px;
+    right: 10px;
+    font-size: 1rem;
+}
+
+.notvisible{
+    display: none;
+}
+
+#scale{
+    margin: 0 10px;
+}
+
+.remove-progress{
+    margin: 0 auto;    
+    font-size: 1rem;
+    padding: 2px;
+    background-color:rgb(255, 123, 123) ;
+    cursor: pointer;
+}
+
+.remove-progress:hover{
+    background-color:rgb(203, 98, 98) ;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="page">
+        <div class="container">
+            <div class="menu">
+                <div class="menu-content">
+                    <div class="task">
+                        Нажмите кнопку чтоб начать!
+                    </div>
+                    <div class="but-panel">
+                        <button class="but done">выполнено</button>
+                        <button class="but skip">пропустить</button>
+                    </div>
+                    <div class="progress notvisible">
+                        <label for="scale">Выполнено</label>
+                        <progress id="scale" max="100" value="0"></progress>
+                        <button class="remove-progress">сбросить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="build/script.js"  type="module"></script>
+</body>
+</html>
